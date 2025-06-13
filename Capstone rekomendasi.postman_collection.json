@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "dcde1e76-f026-4f28-8f4e-def8417a9b92",
+		"name": "Capstone rekomendasi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30324987"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/predict",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"user_id\": 0,\r\n  \"candidates\": [0, 1, 2, 3, 4, 5]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:5000/predict"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:5000/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:5000/"
+			},
+			"response": []
+		}
+	]
+}
